@@ -1,0 +1,74 @@
+/*Estilo Geral*/
+*{margin: 0; padding: 0; text-decoration: none; font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+body{background-color: #dddfe2}
+
+/*Estilo Principal*/
+#principal{
+    width: 800px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    padding:20px;
+    margin-top: 5px; 
+    box-shadow: 1px 1px 5px #000;
+    
+    }
+
+/*Fim do estilo do Principal*/
+
+
+
+/*Estilo do cabecalho*/
+#cabecalho{ margin: -20px;background-color:#3b5998 ; color: #fff;}
+/*Pesquisar Estudantes*/
+.form_search{ float: right; margin-top: 40px; margin-right: 20px;}
+.search{padding: 5px;}
+.bt_search{cursor: pointer;padding: 5px;}
+
+
+
+/*Fim do estilo do cabecalho*/
+
+
+/*Estilo do menu*/
+#menu{margin: -20px ;margin-top:22px; height: 30px; background-color:#3b5998 ;  }
+.list_menu li{display: inline; text-transform: uppercase;  padding:10px;}
+.list_menu li a{color: #fff; }
+.list_menu li a:hover{text-decoration: underline; }
+
+
+/*Fim do estilo do menu*/
+
+/*Estilo do corpo da pagina*/
+#corpo{margin-top:22px; margin: auto;  height: 430px;  }
+
+
+
+/*Fim do estilo do corpo da pagina*/
+
+/*Estilo do rodape da pagina*/
+#rodape{background-color:#3b5998 ;margin: -20px ; }
+#rodape h3{text-align: center;color: #fff;}
+
+
+
+/*Fim do estilo do rodape da pagina*/
+
+
+/*Tabela de Listagem de Estudantes*/
+ 
+.tb_listar{margin-top: 80px;overflow: scroll;}
+.head_tb{ color:#3b5998 ;   }
+.linhas{border-bottom: 1px solid #000;}
+.linhas td{padding: 10px; color:rgb(85, 85, 85) ;  }
+.bt_edit{ background-color: rgb(38, 124, 38);text-decoration: none; color: #fff;padding: 2px; border-radius: 5px;}
+.bt_delete{background-color: rgb(218, 17, 17);text-decoration: none; color: #fff;padding: 2px; border-radius: 5px;}
+
+ 
+/*Fim da tabela de Estudantes*/
+
+/* Formulario de Cadastro*/
+#cad_corpo{margin-top: 40px; margin-left: 20%;}
+.cad_campos{width: 500px;}
+.bt_salvar{width: 195px; margin-top: 20px; cursor: pointer; }
+.cad_campos_ano{width: 100px;}
